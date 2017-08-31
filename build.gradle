@@ -25,6 +25,10 @@ repositories {
     maven { url "https://repo.grails.org/grails/core" }
 }
 
+ext {
+    set "hibernate.version", "5.2.10.Final"
+}
+
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
